@@ -4,9 +4,9 @@ from netmiko.exceptions import NetmikoTimeoutException, NetmikoAuthenticationExc
 # 1. Definición de parámetros de conexión
 device = {
     'device_type': 'cisco_ios',
-    'host': '192.168.1.1',
-    'username': 'admin',
-    'password': 'CiscoPassword123!',
+    'host': 'devnetsandboxiosxec9k.cisco.com',
+    'username': 'usuario',               #aqui pone cada quien ya sea que cree su laboratorio o con el mismo del profe
+    'password': 'contrasena',             #ya termine asi que le quito los usuario y contrasenas que nos dio el profe y solo le pongo asi por defaul como estaba el codigo 
     'port': 22,
 }
 

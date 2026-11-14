@@ -6,12 +6,12 @@ from requests.auth import HTTPBasicAuth
 requests.packages.urllib3.disable_warnings()
 
 # 1. Parámetros de la API RESTCONF
-url = "https://192.168.1.1/restconf/data/ietf-interfaces:interfaces"
+url = "https://devnetsandboxiosxec9k.cisco.com/restconf/data/ietf-interfaces:interfaces"
 headers = {
     "Accept": "application/yang-data+json",
     "Content-Type": "application/yang-data+json"
 }
-auth = HTTPBasicAuth("admin", "C1scoPassword12345!")
+auth = HTTPBasicAuth("usuario", "password")
 
 try:
     # 2. Petición GET HTTP
