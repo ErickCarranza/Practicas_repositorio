@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "GigabitEthernet0/0",
+        "ip": "10.10.20.66",
+        "mascara": "255.255.255.0",
+        "habilitada": true
+    },
+    {
+        "nombre": "GigabitEthernet1/0/1",
+        "ip": "10.10.10.1",
+        "mascara": "255.255.255.0",
+        "habilitada": true
+    },
+    {
+        "nombre": "GigabitEthernet1/0/2",
+        "ip": "10.10.60.10",
+        "mascara": "255.255.255.0",
+        "habilitada": true
+    },
+    {
+        "nombre": "Loopback10",
+        "ip": "192.168.1.1",
+        "mascara": "255.255.255.0",
+        "habilitada": true
+    },
+    {
+        "nombre": "Loopback100",
+        "ip": "10.100.100.1",
+        "mascara": "255.255.255.255",
+        "habilitada": true
+    },
+    {
+        "nombre": "Vlan20",
+        "ip": "10.10.50.10",
+        "mascara": "255.255.255.0",
+        "habilitada": false
+    }
+]
